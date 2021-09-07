@@ -1,4 +1,4 @@
-description = "Middleware layer of the Ada Drivers Library project"
+description = "Board Support Package for the BBC micro:bit v1"
 long-description = '''# microbit BSP
 
 Board Support Package for the BBC micro:bit https://microbit.org/
@@ -17,7 +17,6 @@ licenses = ["BSD 3-Clauses"]
 website="https://github.com/AdaCore/Ada_Drivers_Library/"
 maintainers = ["chouteau@adacore.com"]
 maintainers-logins = ["Fabien-Chouteau"]
-project-files = ["adl_middleware.gpr"]
 tags = ["embedded", "nostd", "microbit", "bbc", "nrf51", "bsp"]
 
 [[depends-on]]
