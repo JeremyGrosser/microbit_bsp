@@ -108,4 +108,3 @@ begin
    UART.Configure (nRF.UART.Baud115200, Parity => False);
    UART.Enable (MB_UART_TX.Pin, MB_UART_RX.Pin);
 end MicroBit.Console;
-

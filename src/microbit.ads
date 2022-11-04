@@ -66,5 +66,4 @@ package MicroBit is
    MB_UART_TX : nRF.GPIO.GPIO_Point renames nRF.Device.P24;
    MB_UART_RX : nRF.GPIO.GPIO_Point renames nRF.Device.P25;
 
-
 end MicroBit;

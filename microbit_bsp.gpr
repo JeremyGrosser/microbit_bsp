@@ -72,7 +72,9 @@ project Microbit_Bsp is
    for Library_Kind use Library_Type;
 
    package Compiler is
-      for Default_Switches ("Ada") use Microbit_Bsp_Config.Ada_Compiler_Switches;
+      for Default_Switches ("Ada") use Microbit_Bsp_Config.Ada_Compiler_Switches & (
+         "-gnatyM120"
+      );
    end Compiler;
 
    package Binder is

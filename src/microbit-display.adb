@@ -662,7 +662,6 @@ package body MicroBit.Display is
          Current_X := Current_X + 1;
       end if;
 
-
       --  Turn on?
       if Bitmap (Current_X, Current_Y) then
          --  Row source current
