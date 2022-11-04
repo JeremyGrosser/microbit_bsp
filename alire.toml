@@ -22,13 +22,11 @@ maintainers-logins = ["Fabien-Chouteau", "JeremyGrosser"]
 
 [[depends-on]]
 nrf5x_hal = "~0.2.0"
-embedded_components = "~0.1.0"
+embedded_components = "~0.2.0"
 
 [configuration.values]
 nrf5x_hal.Device = "nrf51"
 
-[gpr-set-externals]
-EMBEDDED_COMPONENTS_COMPILE_CHECKS = "disabled"
-
 [[pins]]
 nrf5x_hal = { url='https://github.com/JeremyGrosser/nrf5x_hal' }
+embedded_components = { url='https://github.com/JeremyGrosser/embedded_components' }
